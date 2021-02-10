@@ -14,7 +14,7 @@ my $post_id = $fc2blog->edit_post(
     post_id     => 6666,
     title       => "From WebService::FC2::Blog->edit_post(): " . localtime,
     description => "<h1>編集テストEDIT</h1>",
-    date_created => '20210206T16:48:06',    # ISO.8601形式
+    date_created => '20210211T16:48:06',    # ISO.8601形式
     category_id => 1,
     publish     => 0,
 );

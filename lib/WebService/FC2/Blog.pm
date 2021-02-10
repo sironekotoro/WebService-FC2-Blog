@@ -5,7 +5,8 @@ use warnings;
 
 our $VERSION = "0.01";
 
-use FindBin::libs 'v2.20.2';
+use FindBin;
+use lib "$FindBin::Bin/lib";
 use Function::Parameters 2.001003;
 use Moo 2.004004;
 use Syntax::Keyword::Try 0.20;

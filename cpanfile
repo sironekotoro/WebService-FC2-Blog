@@ -1,5 +1,4 @@
 requires 'File::Slurp', '9999.32';
-requires 'FindBin::libs';
 requires 'Function::Parameters', '2.001003';
 requires 'MIME::Base64';
 requires 'Moo', '2.004004';

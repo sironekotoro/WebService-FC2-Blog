@@ -44,7 +44,6 @@
       "runtime" : {
          "requires" : {
             "File::Slurp" : "9999.32",
-            "FindBin::libs" : "0",
             "Function::Parameters" : "2.001003",
             "MIME::Base64" : "0",
             "Moo" : "2.004004",
