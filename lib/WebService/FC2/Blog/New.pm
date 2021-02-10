@@ -34,7 +34,7 @@ method new_post (:$title, :$description, :$date_created = undef, :$category_id =
         )->result;
 
         if ($category_id) {
-            $self->set_category(
+            $self->set_post_category(
                 post_id     => $post_id,
                 category_id => $category_id
             );
