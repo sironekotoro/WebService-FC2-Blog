@@ -44,7 +44,7 @@ method edit_post(:$post_id, :$title = undef, :$description = undef, :$date_creat
         };
 
         if ($category_id){
-            $self->set_category(post_id => $post_id, category_id => $category_id)
+            $self->set_post_category(post_id => $post_id, category_id => $category_id)
         }
 
         return $result;
