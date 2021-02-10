@@ -80,8 +80,6 @@ FC2 ブログの記事を削除します。
 
 ## get\_recent\_posts
 
-    my $fc2blog = WebService::FC2::Blog->new(
-
     my $result = $fc2blog->get_recent_posts( number_of_posts => 5 );
 
 投稿済みの記事を最新の記事からさかのぼって取得します。最大 100 件まで取得できます。
@@ -116,7 +114,7 @@ FC2 ブログの記事を削除します。
 
 ブログにファイルをアップロードします。アップロード可能なファイルの拡張子は以下です。
 
-    jpg gif png mid swf ico mp3 html txt css js rdf xml xsl)
+    jpg gif png mid swf ico mp3 html txt css js rdf xml xsl
 
 # LICENSE
 

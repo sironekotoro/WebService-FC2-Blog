@@ -62,6 +62,17 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/sironekotoro/WebService-FC2-Blog/issues"
+      },
+      "homepage" : "https://github.com/sironekotoro/WebService-FC2-Blog",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/sironekotoro/WebService-FC2-Blog.git",
+         "web" : "https://github.com/sironekotoro/WebService-FC2-Blog"
+      }
+   },
    "version" : "0.01",
    "x_serialization_backend" : "JSON::PP version 4.05",
    "x_static_install" : 1
